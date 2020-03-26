@@ -35,3 +35,4 @@ IM_CONFIG_DEFAULT_MODE=fcitx
 -----------------------------------------
 ~$ sudo reboot
 -----------------------------------------
+*참고 : [라즈베리파이] 한글입력기 fcitx 설치 후 im-config에서 세팅되지 않을 때 강제설정법 https://sm987.blogspot.com/2018/12/fcitx-im-config.html
