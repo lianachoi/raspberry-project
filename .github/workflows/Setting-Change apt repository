@@ -67,4 +67,6 @@ E: 문제를 바로잡을 수 없습니다. 망가진 고정 패키지가 있습
 입력내용(나머지는 주석처리 #)
 Terminal-------------------------------------------------------------------------------
 pi@raspberrypi:~ $ sudo apt install default-mysql-server
+pi@raspberrypi:~ $ sudo apt install mysql-server.*
 -------------------------------------------------------------------------------
+출처: [ubuntu] 우분투 apt-get 망가진 고정 패키지가 있습니다 해결방법 https://dololak.tistory.com/114 [코끼리를 냉장고에 넣는 방법]
