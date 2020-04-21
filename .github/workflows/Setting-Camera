@@ -4,3 +4,28 @@ https://webnautes.tistory.com/929
 스트리밍 방법
 http://blog.naver.com/PostView.nhn?blogId=cosmosjs&logNo=220666294999&categoryNo=0&parentCategoryNo=56
 https://github.com/jacksonliam/mjpg-streamer
+
+
+
+
+실행 ----------------------------------------------------------------------------------------------------------
+pi@raspberrypi:~ $ cd /home/pi/mjpg-streamer-master/mjpg-streamer-experimental
+pi@raspberrypi:~/mjpg-streamer-master/mjpg-streamer-experimental $ ./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so"
+MJPG Streamer Version.: 2.0
+ i: fps.............: 5
+ i: resolution........: 640 x 480
+ i: camera parameters..............:
+
+Sharpness 0, Contrast 0, Brightness 50
+Saturation 0, ISO 0, Video Stabilisation No, Exposure compensation 0
+Exposure Mode 'auto', AWB Mode 'auto', Image Effect 'none'
+Metering Mode 'average', Colour Effect Enabled No with U = 128, V = 128
+Rotation 0, hflip No, vflip No
+ROI x 0.000000, y 0.000000, w 1.000000 h 1.000000
+ o: www-folder-path......: ./www/
+ o: HTTP TCP port........: 8080
+ o: HTTP Listen Address..: (null)
+ o: username:password....: disabled
+ o: commands.............: enabled
+ i: Starting Camera
+Encoder Buffer Size 81920
